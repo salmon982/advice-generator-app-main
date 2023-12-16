@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&display=swap');
+
+:root {
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-size: 28px;
+  font-family: 'Manrope', sans-serif;
+}
+
+main {
+  background-color: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.advice-generator {
+  background-color: var(--dark-grayish-blue);
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5em 0.75em 2.25em 0.75em;
+  width: 90%;
+  max-width: 540px;
+}
+
+.advice-id {
+  text-transform: uppercase;
+  color: var(--neon-green);
+  font-size: 0.7rem;
+  letter-spacing: 4px;
+  font-weight: 700;
+  margin-bottom: 2.25em;
+}
+
+.quote {
+  color: var(--light-cyan);
+  font-weight: 700;
+  font-size: 1.45rem;
+  text-align: center;
+  letter-spacing: 0.25px;
+  margin-bottom: 1em;
+}
+
+.generator {
+  margin-top: -1em;
+  background-color: var(--neon-green);
+  padding: 0.5em 0.7em 0.45em 0.7em;
+  border-radius: 150%;
+  transition: box-shadow 0.3s ease;
+}
+
+.generator:hover {
+  box-shadow: 0 0 20px 5px var(--neon-green);
+  cursor: pointer;
+}
+
+.generator img {
+  height: auto;
+  width: 0.9em;
+}
+
+@media all and (min-width: 800px) {
+  .advice-generator {
+    padding: 1.5em 1.5em 2.5em 1.5em;
+  }
+
+  .advice-id {
+    font-size: 0.8rem;
+  }
+
+  .quote {
+    font-size: 1.75rem;
+    margin-bottom: 1.5em;
+  }
+
+  .generator {
+    padding: 0.43em 0.7em 0.4em 0.7em;
+    margin-top: -1.25em;
+  }
+
+  .generator img {
+    width: 0.85em;
+  }
+}
