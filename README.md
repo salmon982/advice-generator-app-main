@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Responsive Advice Generator App](https://www.frontendmentor.io/solutions/responsive-advice-generator-app-B8AevvRG7H)
+- Live Site URL: [Live Site](https://salmon982-advice-generator.netlify.app/)
 
 ## My process
 
